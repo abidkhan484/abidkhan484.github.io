@@ -1,1 +1,132 @@
-{"data":[{"id":"MDEwOlJlcG9zaXRvcnkxNDQ4Mzg0NjA=","name":"shortenURL","createdAt":"2018-08-15T10:17:10Z","url":"https://github.com/abidkhan484/shortenURL","description":"# shortenURL; I've tasted it locally. and there's a demo youtube link.","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"},{"name":"CSS","iconifyClass":"logos-css-3"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"Dockerfile","iconifyClass":"simple-icons:docker"}]},{"id":"MDEwOlJlcG9zaXRvcnkzOTExNDY0OTI=","name":"problem_solving","createdAt":"2021-07-30T17:34:48Z","url":"https://github.com/abidkhan484/problem_solving","description":null,"isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"MDEwOlJlcG9zaXRvcnk5OTIwNzQwMQ==","name":"hackerrank_solution","createdAt":"2017-08-03T08:05:09Z","url":"https://github.com/abidkhan484/hackerrank_solution","description":"here is my solution of hackerrank programming problems.... ....","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]},{"id":"R_kgDOG-nctg","name":"nginx-load-balancing-docker","createdAt":"2022-03-10T11:19:41Z","url":"https://github.com/abidkhan484/nginx-load-balancing-docker","description":null,"isFork":false,"languages":[]},{"id":"R_kgDOHGjMnQ","name":"Exclusive-Calculator","createdAt":"2022-04-01T08:06:19Z","url":"https://github.com/abidkhan484/Exclusive-Calculator","description":null,"isFork":false,"languages":[{"name":"Shell","iconifyClass":"simple-icons:shell"},{"name":"PHP","iconifyClass":"logos-php"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"Dockerfile","iconifyClass":"simple-icons:docker"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"}]},{"id":"R_kgDOHNNkIA","name":"aws-practice","createdAt":"2022-04-20T10:52:48Z","url":"https://github.com/abidkhan484/aws-practice","description":"This repository is created to practice AWS.","isFork":false,"languages":[{"name":"Shell","iconifyClass":"simple-icons:shell"}]}]}
+{
+  "data": [
+    {
+      "id": "R_kgDOJ_npcg",
+      "name": "Queue Driven Data Uploader",
+      "createdAt": "2023-07-25T15:55:39Z",
+      "url": "https://github.com/abidkhan484/queueDrivenDataUploader",
+      "description": null,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "FastAPI",
+          "iconifyClass": "devicon:fastapi"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "skill-icons:react-dark"
+        },
+        {
+          "name": "RabbitMQ",
+          "iconifyClass": "devicon:rabbitmq"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOHwb46g",
+      "name": "Parking Lot Management - OpenCV",
+      "createdAt": "2022-08-02T15:23:11Z",
+      "url": "https://github.com/abidkhan484/opencv-parking-lot-management",
+      "description": "The web application is developed to monitor parking space using IP camera with OpenCV. Demo video: https://youtu.be/5PadKZ-oNgE",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "OpenCV",
+          "iconifyClass": "logos-opencv"
+        },
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "WebSocket",
+          "iconifyClass": "devicon:socketio"
+        },
+        {
+          "name": "Shell",
+          "iconifyClass": "simple-icons:shell"
+        }
+      ]
+    },
+    {
+      "id": "MDEwOlJlcG9zaXRvcnkxNDQ4Mzg0NjA=",
+      "name": "Shorten URL",
+      "createdAt": "2018-08-15T10:17:10Z",
+      "url": "https://github.com/abidkhan484/shortenURL",
+      "description": "# shortenURL; I've tasted it locally. and there's a demo youtube link.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        },
+        {
+          "name": "Jinja",
+          "iconifyClass": "simple-icons:jinja"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG-nctg",
+      "name": "Load Balancing using Nginx, Docker",
+      "createdAt": "2022-03-10T11:19:41Z",
+      "url": "https://github.com/abidkhan484/nginx-load-balancing-docker",
+      "description": null,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Nginx",
+          "iconifyClass": "logos-nginx"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOHT6xcw",
+      "name": "Design Patterns",
+      "createdAt": "2022-05-10T10:27:03Z",
+      "url": "https://github.com/abidkhan484/design_patterns",
+      "description": null,
+      "isFork": false,
+      "languages": [
+        {
+          "name": "PHP",
+          "iconifyClass": "logos-php"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOH_Jjjg",
+      "name": "Smart Home",
+      "createdAt": "2022-09-13T05:55:04Z",
+      "url": "https://github.com/abidkhan484/smarthome",
+      "description": "In this project, devices can operate remotely through message broker. Relevant demo: https://youtu.be/VEJ5LVK6scA",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "NodeJS",
+          "iconifyClass": "logos-nodejs"
+        },
+        {
+          "name": "Ant Design",
+          "iconifyClass": "devicon:antdesign"
+        },
+        {
+          "name": "Docker",
+          "iconifyClass": "logos:docker-icon"
+        },
+        {
+          "name": "Arduino",
+          "iconifyClass": "logos:arduino"
+        }
+      ]
+    }
+  ]
+}

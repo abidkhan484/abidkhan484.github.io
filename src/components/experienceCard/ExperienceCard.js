@@ -59,7 +59,9 @@ class ExperienceCard extends Component {
             className="experience-card-description"
             style={{ color: theme.text }}
           >
-            {experience["description"]}
+            {experience["description"].split("\n").map((line) => {
+              return <li>{line}</li>;
+            })}
           </p>
         </div>
       </div>

@@ -156,20 +156,20 @@ const skills = {
 const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/abidkhan484",
-    },
-    {
       siteName: "HackerRank",
       iconifyClassname: "simple-icons:hackerrank",
       style: {
         color: "#2EC866",
       },
       profileLink: "https://www.hackerrank.com/abidkhan484",
+    },
+    {
+      siteName: "LeetCode",
+      iconifyClassname: "simple-icons:leetcode",
+      style: {
+        color: "#F79F1B",
+      },
+      profileLink: "https://leetcode.com/abidkhan484",
     },
     {
       siteName: "Codechef",
@@ -221,8 +221,7 @@ const certifications = {
       title: "Python",
       subtitle: "- Sololearn",
       logo_path: "sololearn_logo.png",
-      certificate_link:
-        "https://www.sololearn.com/Certificate/CT-K98NXKMY/pdf",
+      certificate_link: "https://www.sololearn.com/Certificate/CT-K98NXKMY/pdf",
       alt_name: "Python3 Tutorial",
       color_code: "#8C151599",
     },
@@ -247,8 +246,11 @@ const experience = {
           logo_path: "mirinfosys_logo.png",
           duration: "Nov 2020 - Present",
           location: "Mohakhali DOHS, Dhaka",
-          description:
-            "Clean code practices were applied to develop readable, maintainable, and scalable code for the web application. The frontend and backend of an existing application were separated to achieve independence. APIs for the Flexiplan app, which consumes various channels, were built and tested, following Scrum methodology for project status updates.",
+          description: `Applied clean code practices to develop readable, maintainable and scalable code for web application.
+            Building and testing APIs for the Flexiplan app (a product of Grameen Phone) that consumes different channels.
+            Following Scrum methodology to share and get updated about the project status.
+            Troubleshoot with different logs according to the demand with Python or Bash.
+            Tech: PHP, Slim, Drupal 7, MySql.`,
           color: "#0879bf",
         },
         {
@@ -258,8 +260,12 @@ const experience = {
           logo_path: "mirinfosys_logo.png",
           duration: "Apr 2018 - Nov 2020",
           location: "Mohakhali DOHS, Dhaka",
-          description:
-            "Content-configurable admin panel, APIs, and automated services were developed for United Hospital and Skitto, while an intranet portal was created for IFIC Bank, with ongoing maintenance support provided for various clients.",
+          description: `Building content-configurable admin panel and a couple of APIs for United Hospital app to connect with doctors for online appointments. Also, made automated prescription, notification etc services.
+            Developed an intranet portal for a renowned bank IFIC. Also, maintaining the service currently.
+            Set up a monitoring tool application for backend APIs and develop a couple of features for the admin panel of Skitto. E.g Seller tracking system.
+            Automating repetitive tasks by Improving existing code and revamp features for the backend. 
+            Also serving maintenance support for different clients. E.g Bkash Website (a mobile wallet), Bkash SCP (vendor enlistment portal), BTRC, BTRC DIS etc.
+            Tech: PHP, Codeigniter, Drupal 7, Mysql.`,
           color: "#9b1578",
         },
       ],
@@ -312,8 +318,7 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "Vill: Sutrapur, Thana & Post: Kaliakair-1750, Dist: Gazipur",
+    subtitle: "Vill: Sutrapur, Thana & Post: Kaliakair-1750, Dist: Gazipur",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/xj5srriy7iKujzqp6",
   },
