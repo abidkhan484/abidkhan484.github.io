@@ -1,14 +1,14 @@
 {
   "private": true,
   "name": "abidkhan484.github.io",
-  "homepage": ".",
   "version": "0.1.0",
+  "homepage": ".",
   "scripts": {
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "predeploy": "yarn build",
+    "deploy": "export SET NODE_OPTIONS=--openssl-legacy-provider && gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "test": "react-scripts test"
   },
   "dependencies": {
@@ -18,7 +18,7 @@
     "bootstrap": "^4.4.1",
     "chart.js": "^2.9.3",
     "fs": "0.0.1-security",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^5.0.0",
     "graphql": "^14.5.8",
     "node-fetch": "^2.6.0",
     "prettier-package-json": "^2.1.3",
