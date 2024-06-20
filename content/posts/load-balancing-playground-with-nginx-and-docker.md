@@ -2,7 +2,7 @@
 author = "Md Abid Khan"
 title = "Load Balancing Playground with Nginx and Docker"
 date = "2022-03-13"
-description = "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+description = "Load Balancing Playground with Nginx and Docker"
 tags = [
     "Load Balancing",
     "Nginx",
