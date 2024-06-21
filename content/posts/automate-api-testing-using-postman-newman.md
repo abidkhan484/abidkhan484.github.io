@@ -9,9 +9,7 @@ tags = [
     "API Testing",
 ]
 categories = [
-    "Postman",
-    "Newman",
-    "API Testing",
+    "Automation",
 ]
 authors = ["Abid"]
 aliases = ["automate-api-testing-using-postman-newman"]
@@ -34,7 +32,7 @@ In this task, we are using JSON placeholder APIs. Postman has the feature to cre
 
 A snippet to set variables in the POST request body is given below.
 
-```json
+```json {linenos=true}
 {
   "userId": {{userId}},
   "title": "{{title}}",

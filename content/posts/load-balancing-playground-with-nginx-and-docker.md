@@ -9,7 +9,7 @@ tags = [
     "Docker",
 ]
 categories = [
-    "Docker",
+    "DevOps",
 ]
 authors = ["Abid"]
 aliases = ["load-balancing-playground-with-nginx-and-docker"]
