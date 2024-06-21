@@ -17,7 +17,7 @@ favorite = true
 +++
 ### Concurrent execution and multiprocessing using Python
 
-![Fig: Multiple processes are running concurrently](images/multi-process-python.png "Fig: Multiple processes are running concurrently")
+![Fig: Multiple processes are running concurrently](../images/multi-process-python.png "Fig: Multiple processes are running concurrently")
 
 Python defaults to a single-threaded execution due to the Global Interpreter Lock (GIL). Despite the pros and cons associated with the GIL, Python now supports the implementation of multiple interpreters concurrently.
 

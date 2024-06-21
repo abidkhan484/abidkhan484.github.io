@@ -71,7 +71,7 @@ deploy:
         docker run -d -p 5000:3000 $IMAGE_NAME:$IMAGE_TAG"
 ```
 Referencing the pipeline jobs, the provided example showcases the final output.
-![GitLab CI job](images/gitlab-ci-job.jpg "GitLab CI job")
+![GitLab CI job](../images/gitlab-ci-job.jpg "GitLab CI job")
 
 
 The conclusive code is provided below for your reference.
