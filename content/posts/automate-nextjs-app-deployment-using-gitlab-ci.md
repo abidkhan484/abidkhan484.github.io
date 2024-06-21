@@ -1,3 +1,18 @@
++++
+author = "Md Abid Khan"
+title = "NextJS app deployment using Gitlab CI"
+date = "2023-11-20"
+description = "NextJS app deployment using Gitlab CI"
+tags = [
+    "Gitlab CI",
+    "NextJS",
+]
+categories = [
+    "DevOps"
+]
+authors = ["Abid"]
+aliases = ["automate-nextjs-app-deployment-using-gitlab-ci"]
++++
 ## NextJS app deployment using Gitlab CI
 
 Streamline the deployment of your Next.js application effortlessly with GitLab CI automation. Enhance efficiency and reduce deployment hassles with a seamless integration approach. Let’s dive in.
