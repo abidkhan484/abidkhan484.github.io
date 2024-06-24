@@ -13,7 +13,6 @@ categories = [
 ]
 authors = ["Abid"]
 aliases = ["automate-api-testing-using-postman-newman"]
-favorite = true
 +++
 # Automate API Testing using Postman & Newman
 
