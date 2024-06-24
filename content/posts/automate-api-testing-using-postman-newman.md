@@ -1,8 +1,8 @@
 +++
 author = "Md Abid Khan"
-title = "Automate API Testing using Postman & Newman"
+title = "Automate API testing using Postman & Newman"
 date = "2022-10-27"
-description = "Automate API Testing using Postman & Newman"
+description = "Automate API testing using Postman & Newman"
 tags = [
     "Postman",
     "Newman",
