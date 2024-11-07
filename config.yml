@@ -1,6 +1,6 @@
 baseURL: "/"
 title: Abid's Thoughts
-paginate: 5
+paginate: 10
 copyright: "© Abid Khan"
 theme: [PaperMod]
 
@@ -168,10 +168,3 @@ services:
     disableInlineCSS: true
   twitter:
     disableInlineCSS: true
-
-GiscusRepo: "abidkhan484/abidkhan484.github.io"
-GiscusRepoId: "MDEwOlJlcG9zaXRvcnkyNTQ3MjI1NzI"
-GiscusCategory: "General"
-GiscusCategoryId: "DIC_kwDODy7CDM4CgOhG"
-GiscusLazyLoad: true
-GiscusDataMapping: "pathname"

@@ -6,7 +6,7 @@ aliases = ["about-abid", "about"]
 author = ["Abid"]
 +++
 
-Hi there! Abid has been working as a professional software developer since 2018. Before that, he has started learning software engineering in 2012.
+Hi there! Abid has been working as a professional software developer since 2018. Before that, he has started learning software engineering in 2015 after dropouts.
 
 In his professional career, he has used a couple of technologies and tools for client support. Most of them are PHP-based backend development like Codeigniter, Drupal, Slim. He's also tasted Python-based Django, Flask, and some web scraping tools like Scrapy, Selenium web driver. He has also tried the Javascript-based front-end framework React.
 
