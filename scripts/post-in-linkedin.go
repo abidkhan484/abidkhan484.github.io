@@ -93,7 +93,7 @@ func postToLinkedIn(post PostMeta) {
         "specificContent": {
             "com.linkedin.ugc.ShareContent": {
             "shareCommentary": {
-                "text": "I am sharing another blog post, which can be found at the URL below. (This is an automated post.)"
+                "text": "Here's another blog post! You can find it at the link below.\n\n(This is an automated post—feedback is always welcome!)"
             },
             "shareMediaCategory": "ARTICLE",
             "media": [
