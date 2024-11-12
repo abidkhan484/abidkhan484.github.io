@@ -9,7 +9,7 @@ tags = [
     "Docker",
 ]
 categories = [
-    "DevOps",
+    "Olympiad",
 ]
 authors = ["Abid"]
 aliases = ["math-olympiad-preparation"]
