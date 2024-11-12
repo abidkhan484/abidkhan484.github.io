@@ -29,7 +29,18 @@ The Go script parses the markdown file to extract relevant information needed fo
 ### Playground
 
 
-### Diagrams
+##### GitHub Actions Workflow
+
+In the GitHub Actions workflow, there's a job to check for new posts. The `check` job uses `git diff` with `fetch-depth: 2` to compare the latest two commits (`HEAD^` and `HEAD`). It looks for changes in files with a `content/` prefix, since all posts are stored in that directory. If a new post is detected, the subsequent `build-and-deploy` job is triggered.
+
+Additionally, a separate job is included to handle posting to LinkedIn. This job runs a script to automate the LinkedIn posting process.
+
+##### Posting to LinkedIn
+The LinkedIn posting script contains a function called `getNewPosts`, which checks for any new Markdown files added to the `content/` directory by using `git diff` on the latest commits. If a new file is found, another method called `getMetaValue` parses the content. This method extracts metadata fields like `title`, `description`, `url`, etc., using regex patterns based on Hugo's structured front matter for titles, descriptions, and tags.
+
+To post on LinkedIn, you'll need to create a LinkedIn app to generate an access token. This token is obtained using the app's client ID and secret via LinkedIn's OAuth flow. You can manually generate the access token from the [LinkedIn OAuth Tool](https://www.linkedin.com/developers/tools/oauth), which also includes a sign-in prompt for user authorization.
+
+After obtaining the access token, you need to retrieve the user ID for posting. The script uses the parsed metadata (e.g., title, description, and URL) to create the appropriate payload for LinkedIn's API. The actual post request is made using the [LinkedIn UGC Post API](https://learn.microsoft.com/en-us/linkedin/compliance/integrations/shares/ugc-post-api?tabs=http), which allows the automated GitHub Action to publish the content on LinkedIn.
 
 
 ### Improvements
